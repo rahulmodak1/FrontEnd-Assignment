@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+:root {
+    --font1: 'Roboto Mono', monospace;
+    --font2: 'Oswald', sans-serif;
+    
+}
+.font1{
+  font-family: var(--font1); 
+
+}
+.font2{
+    font-family:var(--font2); ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.product-details {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius:20px 0px ;
+    box-shadow: 21px 31px 69px -11px rgba(0,0,0,0.1);
+    border
+}
+
+.product-description {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.product-img {
+    width: 40%;
+}
+
+.big-img {
+    width: 250px;
+}
+
+.big-img img {
+    width: inherit;
+    border: 1px dotted;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.small-img {
+    width: 50px;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.small-img img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1.5px solid;
+    margin: 5px;
+}
+
+.small-img img:hover {
+    transform: scale(1.2);
+}
+
+.rating i {
+    font-size: smaller;
+}
+
+.price {
+    display: flex;
+}
+
+.price p {
+    margin-right: 5px;
+    margin-bottom: 18px;
+}
+
+#catg {
+    margin-top: 18px;
+}
+
+#less {
+    text-decoration: line-through;
+    font-size: smaller;
+}
+
+#off {
+    color: green;
+}
+
+.color {
+    display: flex;
+    position: relative;
+}
+
+.color p {
+    margin-right: 88px;
+    
+}
+.availability {
+    display: flex;
+   
+}
+.availability p{
+     margin-right: 50px;
+}
+
+.size {
+    display: flex;
+}
+
+.size input {
+    
+    cursor: pointer;
+}
+
+.sizes {
+    margin-left: 50px;
+  transition: all 0.3s ease;
+}
+
+.sizes input:hover {
+    transform: scale(1.2);
+}
+
+.margin-buttom {
+    margin-bottom: 18px;
+}
+
+.Quantity select {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.Quantity select:hover {
+    background-color: #947EC3;
+    color: white;
+}
+
+.btn {
+    display: flex;
+}
+
+.Buy-btn input {
+    color: aliceblue;
+    background-color: rgba(0, 0, 255, 0.666);
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cart-btn input {
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn .Buy-btn input:hover {
+    transform: scale(1.1);
+}
+
+.btn .cart-btn input:hover {
+    transform: scale(1.1);
+}
