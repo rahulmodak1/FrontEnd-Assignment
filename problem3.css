@@ -53,6 +53,7 @@
     border-style: groove;
     margin-top: 50px;
     cursor: pointer;
+  margin-left:15px;
 }
 
 .images {
@@ -75,6 +76,7 @@
     border: 1.5px;
     border-style: inset;
     margin: 5px;
+  margin-left:15px;
 }
 
 .small-img img:hover {
