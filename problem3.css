@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 :root {
-    --font1: 'Roboto Mono', monospace;
-    --font2: 'Oswald', sans-serif;
-    
+    --font1: "Patrick Hand", cursive;
+    --font2: "Oswald", sans-serif;
 }
-.font1{
-  font-family: var(--font1); 
 
+.font1 {
+    font-family: var(--font1);
 }
-.font2{
-    font-family:var(--font2); ;
+
+.font2 {
+    font-family: var(--font2);
 }
 
 * {
@@ -25,15 +25,13 @@
     margin-top: 20px;
 }
 
-
 .product-details {
     display: flex;
     width: 1000px;
     margin: 20px auto;
     background-color: aliceblue;
-    border-radius:20px 0px ;
-    box-shadow: 21px 31px 69px -11px rgba(0,0,0,0.1);
-    border
+    border-radius: 20px 0px;
+    box-shadow: 21px 31px 69px -11px rgba(0, 0, 0, 0.1);
 }
 
 .product-description {
@@ -51,7 +49,8 @@
 
 .big-img img {
     width: inherit;
-    border: 1px dotted;
+    /* border:2px; */
+    border-style: groove;
     margin-top: 50px;
     cursor: pointer;
 }
@@ -73,7 +72,8 @@
     width: inherit;
     cursor: pointer;
     transition: all 0.3s ease;
-    border: 1.5px solid;
+    border: 1.5px;
+    border-style: inset;
     margin: 5px;
 }
 
@@ -93,6 +93,11 @@
     margin-right: 5px;
     margin-bottom: 18px;
 }
+#sell-p {
+    font-weight: 600;
+    font-size: larger;
+}
+
 
 #catg {
     margin-top: 18px;
@@ -102,8 +107,7 @@
     text-decoration: line-through;
     font-size: smaller;
 }
-
-#off {
+#off{
     color: green;
 }
 
@@ -114,14 +118,14 @@
 
 .color p {
     margin-right: 88px;
-    
 }
+
 .availability {
     display: flex;
-   
 }
-.availability p{
-     margin-right: 50px;
+
+.availability p {
+    margin-right: 50px;
 }
 
 .size {
@@ -129,13 +133,12 @@
 }
 
 .size input {
-    
     cursor: pointer;
 }
 
 .sizes {
     margin-left: 50px;
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .sizes input:hover {
@@ -152,7 +155,7 @@
 }
 
 .Quantity select:hover {
-    background-color: #947EC3;
+    background-color: #947ec3;
     color: white;
 }
 
@@ -163,8 +166,8 @@
 .Buy-btn input {
     color: aliceblue;
     background-color: rgba(0, 0, 255, 0.666);
-    padding: 6px;
-    border: 1px solid;
+    padding: 8px;
+    border: none;
     border-radius: 3px;
     margin-right: 40px;
     margin-top: 20px;
@@ -173,15 +176,15 @@
 }
 
 .cart-btn input {
-    padding: 4px;
-    border: 1px solid;
+    padding: 8px;
+    border:none;
     border-radius: 3px;
     margin-top: 20px;
     font-weight: bold;
     transition: all 0.3s ease;
 }
 
-.btn .Buy-btn input:hover {
+.Buy-btn input:hover {
     transform: scale(1.1);
 }
 
